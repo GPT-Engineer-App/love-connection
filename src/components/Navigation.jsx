@@ -12,6 +12,9 @@ function Navigation() {
       <Button as={Link} to="/profiles" state={{ likedProfiles }}>
         Profiles
       </Button>
+      <Button as={Link} to="/admin">
+        Admin
+      </Button>
     </Box>
   );
 }
