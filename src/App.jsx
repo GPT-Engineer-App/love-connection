@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/profiles" element={<Profiles />} />
         <Route exact path="/" element={<Index />} />
+        <Route exact path="/" element={<Index />} />
       </Routes>
     </Router>
   );
